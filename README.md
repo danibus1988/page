@@ -2,6 +2,65 @@
 primer page
 /* Write some CSS below */
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Le Wagon - Web </title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Lora:700|Overpass:400,700&ital@1&display=swap" rel="stylesheet">
+ 
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Banner section -->
+  <div class="banner-wrap">
+    <h1>Change your life, learn to code</h1>
+    <p>Le Wagon brings technical skills to creative people</p>
+    <a href="https://www.lewagon.com"> Apply now </a>  
+  </div>
+   
+   <!-- Cards section --> 
+  <div class="cards-wrap">
+     <h2>Discover our campuses</h2>
+    <!-- Cards container -->
+    <div class="cards-container">
+
+      <!-- Shanghai card -->
+      <div class="card">
+         <img src="https://source.unsplash.com/collection/1964125/200x200">
+         <h3>Shanghai</h3>
+         <p>Learn to code with us in Shanghai</p>
+      </div>
+
+      <!-- London card -->
+      <div class="card">
+         <img src="https://source.unsplash.com/collection/9469068/200x200">
+         <h3>London</h3>
+         <p>Learn to code with us in London</p>
+      </div>
+
+      <!-- Paris card -->
+      <div class="card">
+         <img src="https://source.unsplash.com/collection/2005064/200x200">
+         <h3>Paris</h3>
+         <p>Learn to code with us in Paris</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer section -->
+  <footer>
+    <p>Website made by DaniBus with the ❤️ for Le Wagon</p>    
+  </footer>
+      
+    
+    </div>
+
+</body>
+</html>
+
 body {
 	font-family: "LORA", sans-serif;
 	margin: 0;
@@ -75,64 +134,6 @@ footer p{
 	font-size: 18px;
 	text-align: center;
 }
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Le Wagon - Web </title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Lora:700|Overpass:400,700&ital@1&display=swap" rel="stylesheet">
- 
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <!-- Banner section -->
-  <div class="banner-wrap">
-    <h1>Change your life, learn to code</h1>
-    <p>Le Wagon brings technical skills to creative people</p>
-    <a href="https://www.lewagon.com"> Apply now </a>  
-  </div>
-   
-   <!-- Cards section --> 
-  <div class="cards-wrap">
-     <h2>Discover our campuses</h2>
-    <!-- Cards container -->
-    <div class="cards-container">
-
-      <!-- Shanghai card -->
-      <div class="card">
-         <img src="https://source.unsplash.com/collection/1964125/200x200">
-         <h3>Shanghai</h3>
-         <p>Learn to code with us in Shanghai</p>
-      </div>
-
-      <!-- London card -->
-      <div class="card">
-         <img src="https://source.unsplash.com/collection/9469068/200x200">
-         <h3>London</h3>
-         <p>Learn to code with us in London</p>
-      </div>
-
-      <!-- Paris card -->
-      <div class="card">
-         <img src="https://source.unsplash.com/collection/2005064/200x200">
-         <h3>Paris</h3>
-         <p>Learn to code with us in Paris</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Footer section -->
-  <footer>
-    <p>Website made by DaniBus with the ❤️ for Le Wagon</p>    
-  </footer>
-      
-    
-    </div>
-
-</body>
-</html>
 
 
 
